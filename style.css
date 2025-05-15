@@ -1,0 +1,68 @@
+/* Base reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background:ivory;
+  padding: 40px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+input[type="file"] {
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="file"]:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: #7fbc8c;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #66a375;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #333;
+  background: #f1f8f5;
+  padding: 10px;
+  border-radius: 8px;
+}
